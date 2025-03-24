@@ -1,0 +1,254 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+@font-face {
+    font-family: 'Livvic';
+    src: url('../Livvic/Livvic-Bold.woff') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Livvic';
+    src: url('../Livvic/Livvic-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Livvic', sans-serif;
+    background-color: #014E56;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.site-header {
+    padding: 73px 0 129px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.header-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: white;
+    transform: all 0.4s;
+}
+
+.header-link:hover {
+    color: #F67E7E;
+}
+
+.header-link:active {
+    cursor: grabbing;
+}
+
+.header-contact-link {
+    padding: 9px 33px 11px 32px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+
+}
+
+.header-contact-link:hover {
+    background-color: #F67E7E;
+    border-color: #F67E7E;
+    color: #012F34;
+}
+
+.header-contact-link:active {
+    background-color: white;
+    border-color: white;
+    color: #012F34;
+}
+.main>h2 {
+    width: 350px;
+    color: white;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    letter-spacing: 0px;
+}
+
+.main>h3 {
+    width: 540px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: #F67E7E;
+}
+
+.main-item {
+    width: 540px;
+    height: 312px;
+    padding-top: 32px;
+}
+.main-item-logo{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    color: white;
+}
+.main-logo-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 1112px;
+    height: 428px;
+    margin-bottom: 128px;
+}
+.form-container {
+    width: 542px;
+    height: 420px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background:#014E56;
+    color: white;
+    border-bottom: 1px solid #002529;
+}
+
+textarea {
+    height: 84px;
+}
+
+button {
+    background: white;
+    color:#004047;
+    padding: 9px 32px 11px;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 123px;
+    height: 48px;
+}
+
+button:hover {
+    background: #ddd;
+}
+.site-footer {
+    padding: 48px 0;
+    background-color: #002529;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-wrapper {
+    display: flex;
+    gap: 125px;
+}
+
+.footer-logo>a {
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer-item>a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    transition: all 0.4s;
+}
+
+.footer-item>a:hover {
+    color: #F67E7E;
+}
+
+.footer-desc {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: white;
+    opacity: 0.6;
+}
+
+.footer-img {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 51px;
+    padding-left: 280px;
+}
+
+.footer-link {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-link>a {
+    color: white;
+    transition: 0.4s;
+}
+
+.footer-link>a:hover {
+    color: #F67E7E;
+}
+
+.footer-img>p {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: white;
+    opacity: 0.6;
+
+}
