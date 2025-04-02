@@ -97,6 +97,42 @@ body {
     border-color: white;
     color: #012F34;
 }
+.contact-btn{
+    display: none;}
+/* header tablet start */
+@media (max-width:768px){
+    .site-header{
+        width: 683px;
+        height: 220px;
+        padding: 112px 40px  256px 45px;
+    }
+}
+/* header tablet end */
+
+/* Header Mobile start  */
+@media(max-width:583px){
+    .site-header{
+        padding: 48px 0 80px;
+    }
+    .header-list, .header-contact-link{
+        width: 327px;
+        height: 32px;
+        display: none;
+        text-align: center;
+        justify-content: space-between;
+    }
+    .contact-btn{
+        display: block;
+        width: 20px;
+        height: 17px;
+        border: none;
+        background-color: transparent;
+    }
+    .header{
+        margin: 48px 24px 0;
+    }
+}
+/* Header Mobile end */
 
 .hero {
     display: flex;
@@ -151,6 +187,37 @@ body {
     color: white;
 
 }
+/* Hero Tablet start */
+@media (max-width:768px){
+    .hero{
+    flex-direction: column; text-align: center;
+    background-position: center bottom;
+    }
+    .hero-title-wrapper, .hero-text-wrapperf {width: 100%;
+    }
+    .hero-linet{
+    display: none;
+    }
+    .hero-title{
+    margin-bottom: 24px; font-size: 64px; line-height: 56px; letter-spacing: Opx;}
+    .hero-text{
+    font-size: 15px; line-height: 28px; letter-spacing: Opx;
+    }
+    /* Hero Tablet end */
+    /* Hero Mobile start */
+    @media (max-width:583px){
+    .herof{
+    padding-bottom: 197px;
+    }
+    .hero-titlet{
+    margin-bottom: 18px; font-size: 40px; line-height: 40px; letter-spacing: Opx;
+    }
+}
+    @media (max-width:391px){
+    .herot{
+    background-size: contain;}
+    }
+/* Hero Tablet end */
 
 .build-section {
     padding: 140px 0;
