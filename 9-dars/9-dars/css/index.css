@@ -103,7 +103,7 @@ body {
 @media (max-width:768px){
     .site-header{
         width: 683px;
-        height: 220px;
+        /* height: 220px; */
         padding: 112px 40px  256px 45px;
     }
 }
@@ -188,36 +188,75 @@ body {
 
 }
 /* Hero Tablet start */
-@media (max-width:768px){
-    .hero{
-    flex-direction: column; text-align: center;
-    background-position: center bottom;
+@media(max-width:768px){
+    .hero-section {
+        background-image: none;
     }
-    .hero-title-wrapper, .hero-text-wrapperf {width: 100%;
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        background-position: center bottom;
+        
     }
-    .hero-linet{
-    display: none;
+    .hero-title-wrapper .hero-text-wrapper {
+        width: 100%;
+    }
+    .hero-title-wrapper{
+        margin-top: 1px;
+    }
+    .hero-title {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 56px;
+        letter-spacing: 0px;
+    }
+    .hero-line {
+        display: none;
     }
     .hero-title{
     margin-bottom: 24px; font-size: 64px; line-height: 56px; letter-spacing: Opx;}
     .hero-text{
-    font-size: 15px; line-height: 28px; letter-spacing: Opx;
-    }
-    /* Hero Tablet end */
-    /* Hero Mobile start */
-    @media (max-width:583px){
-    .herof{
-    padding-bottom: 197px;
-    }
-    .hero-titlet{
-    margin-bottom: 18px; font-size: 40px; line-height: 40px; letter-spacing: Opx;
+        font-size: 15px;
+        line-height: 28px;
+        letter-spacing: 0px;
+        margin-top: 28px;
+        padding:0 0 0 16px ;
     }
 }
-    @media (max-width:391px){
-    .herot{
-    background-size: contain;}
+    /* Hero Tablet end */
+    /* Hero Mobile start */
+    @media(max-width:583px){
+        .hero-section {
+        }
+        .hero {
+            text-align: center;
+            margin-top: 80px;
+            background-position: right bottom;
+        }
+        .hero-title-wrapper {
+            line-height: 40px;
+            letter-spacing: 0px;
+            margin-bottom: 18px;
+        }
+        .hero-title {
+        }
+        .hero-title-color {
+        }
+        .hero-text-wrapper {
+            font-size: 15px;
+            line-height: 28px;
+            letter-spacing: 0px;
+        }
+        .hero-line {
+        }
+        
     }
-/* Hero Tablet end */
+    @media (max-width:380px){
+        .hero{
+            background-size: contain;
+        }
+    }
+    /* Hero Tablet end */
 
 .build-section {
     padding: 140px 0;
@@ -289,6 +328,83 @@ body {
     color: #79C8C7;
 
 }
+/* BUilt Tablet start  */
+@media(max-width:768px){
+    .build-section{
+        background-position: right top;
+        width: 768px;
+        height: 710px;    
+    }
+    .container {
+    }
+    .build {
+        width: 573px;
+        height: 510px;
+        flex-direction: column;
+    }
+    .build-title-wrapper {
+    }
+    .build-line {
+    }
+    .build-title {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: 0px;
+        margin-bottom: 64px;
+    }
+    .build-list {
+    }
+    .build-item {
+    }
+    .build-item-img {
+    }
+    .build-item-content-wrapper {
+    }
+}
+/* Built Tablet finish */
+/* BUILT MOBILE START  */
+@media (max-width:583px){
+    .build-section {    
+    }
+    .container {
+    }
+    .build {
+        flex-direction: column;
+    }
+    .build-title-wrapper {
+        width: 240px;
+        height: 196px;    
+    }
+    .build-line {
+    }
+    .build-title {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: 0px;
+        
+    }
+    .build-list {
+        margin-top: 56px;
+        margin: 0 auto;
+        
+        
+    }
+    .build-item {
+        flex-direction: column;
+        width: 327px;
+        height: 199px;
+        text-align: center;
+        margin: 56px;
+        
+    }
+    .build-item-img {
+    }
+    .build-item-content-wrapper {
+    }
+}
+/* BUILT MOBILE FINISH */
 
 .stories-section {
     padding: 140px 0;
